@@ -1,0 +1,94 @@
+/*
+font-family: 'Signika', sans-serif;
+font-family: 'Changa', sans-serif; 
+*/
+
+/* -------------------- General -------------------- */
+
+* {
+    font-family: 'Signika', sans-serif;
+    font-weight: 300;
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+    background-color: rgb(53, 53, 53);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    height: 100%;
+}
+
+.vert {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+/* -------------------- Nav -------------------- */
+
+nav {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 82, 2);
+}
+
+nav h1 {
+    font-family: 'Signika', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.35);
+    font-size: 20px;
+}
+
+nav ul a:hover {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+nav ul a:focus {
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.vert-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+/* -------------------- Work -------------------- */
+
+.content {
+    position: absolute;
+    top: 0px;
+    margin-left: 20%;
+}
