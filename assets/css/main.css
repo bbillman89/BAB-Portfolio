@@ -10,6 +10,10 @@ font-family: 'Changa', sans-serif;
     font-weight: 300;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,body {
     height: 100%;
     margin: 0;
@@ -62,18 +66,37 @@ nav ul {
 
 nav ul a {
     text-decoration: none;
-    color: rgb(255, 255, 255, 0.35);
+    color: rgb(255, 255, 255);
+    opacity: 0.35;
     font-size: 20px;
 }
 
 nav ul a:hover {
     color: rgb(255, 255, 255);
+    opacity: 1;
     transition: 1s;
 }
 
-nav ul a:focus {
+/* this :active is not working */
+nav ul a:active {
     color: rgb(255, 255, 255);
-    /* transition: 1s; */
+    opacity: 1;
+}
+
+.social-media {
+    margin-top: 50px;
+}
+
+.social-media img {
+    display: inline;
+    width: 20px;
+    margin-right: 10px;
+    opacity: 0.35;
+}
+
+.social-media img:hover {
+    opacity: 1;
+    transition: 1s;
 }
 
 .vert-nav {
