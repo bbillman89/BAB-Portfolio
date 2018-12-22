@@ -73,7 +73,7 @@ nav ul a:hover {
 
 nav ul a:focus {
     color: rgb(255, 255, 255);
-    transition: 1s;
+    /* transition: 1s; */
 }
 
 .vert-nav {
@@ -88,7 +88,24 @@ nav ul a:focus {
 /* -------------------- Work -------------------- */
 
 .content {
-    position: absolute;
-    top: 0px;
+    /* position: absolute;
+    top: 0px; */
     margin-left: 20%;
+}
+
+#about {
+    background-color: rgb(34, 34, 34);
+    margin-top: -16px;
+}
+
+#work {
+    background-color: rgb(53, 53, 53);
+}
+
+#resume {
+    background-color: rgb(34, 34, 34);
+}
+
+#contact {
+    background-color: rgb(53, 53, 53);
 }
