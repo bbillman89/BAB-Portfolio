@@ -40,6 +40,12 @@ section {
     margin: auto;
 }
 
+.content {
+    /* position: absolute;
+    top: 0px; */
+    margin-left: 20%;
+}
+
 /* -------------------- Nav -------------------- */
 
 nav {
@@ -108,26 +114,61 @@ nav ul a:active {
     margin: auto;
 }
 
-/* -------------------- Work -------------------- */
-
-.content {
-    /* position: absolute;
-    top: 0px; */
-    margin-left: 20%;
-}
+/* -------------------- About -------------------- */
 
 #about {
     background-color: rgb(34, 34, 34);
     margin-top: -16px;
 }
 
+/* -------------------- Work -------------------- */
+
 #work {
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(53, 53, 53);
 }
+
+#work div {
+    width: 33%;
+    height: 33%;
+    color: white;
+    font-size: 13px;
+}
+
+#work a {
+    text-decoration: none;
+    color: white;
+}
+
+#work h2 {
+    margin: 5px 0px 0px 50px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#work h3 {
+    margin: 150px 0px 0px 50px;
+    font-style: italic;
+}
+
+#work p {
+    margin: 10px 0px 0px 50px;
+    
+}
+
+#pro1 {
+    background-image: url("../images/bourbonbar.jpg");
+    background-size: cover;
+}
+
+/* -------------------- Resume -------------------- */
 
 #resume {
     background-color: rgb(34, 34, 34);
 }
+
+/* -------------------- Contact -------------------- */
 
 #contact {
     background-color: rgb(53, 53, 53);
