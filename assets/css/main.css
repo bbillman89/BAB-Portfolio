@@ -35,6 +35,15 @@ section {
     height: 100%;
 }
 
+input,textarea {
+    color: black;
+}
+
+.icon {
+    width: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
 .vert {
     display: flex;
     justify-content: center;
@@ -94,8 +103,6 @@ nav ul a:active {
 
 .social-media img {
     display: inline;
-    width: 20px;
-    margin-right: 10px;
     opacity: 0.35;
 }
 
@@ -171,5 +178,21 @@ nav ul a:active {
 /* -------------------- Contact -------------------- */
 
 #contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
     background-color: rgb(53, 53, 53);
+}
+
+#contact-left {
+    width: 40%;
+}
+
+#contact-right {
+    width: 60%;
+}
+
+#contact p {
+    margin: 10px 0px 0px 0px;
 }
