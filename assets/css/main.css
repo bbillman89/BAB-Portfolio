@@ -8,6 +8,11 @@ font-family: 'Changa', sans-serif;
 * {
     font-family: 'Signika', sans-serif;
     font-weight: 300;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 html {
@@ -21,9 +26,8 @@ html,body {
 }
 
 h1 {
-    color: rgb(255, 255, 255);
     font-size: 60px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 section {
@@ -59,7 +63,6 @@ nav {
 
 nav h1 {
     font-family: 'Signika', sans-serif;
-    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 100px;
@@ -71,21 +74,17 @@ nav ul {
 }
 
 nav ul a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
     opacity: 0.35;
     font-size: 20px;
 }
 
 nav ul a:hover {
-    color: rgb(255, 255, 255);
     opacity: 1;
     transition: 1s;
 }
 
 /* this :active is not working */
 nav ul a:active {
-    color: rgb(255, 255, 255);
     opacity: 1;
 }
 
@@ -126,35 +125,36 @@ nav ul a:active {
 #work {
     display: flex;
     flex-wrap: wrap;
+    /* align-items: center;
+    justify-content: center; */
     background-color: rgb(53, 53, 53);
 }
 
-#work div {
+.pro-container {
+    align-items: center;
+    justify-content: center;
     width: 33%;
     height: 33%;
-    color: white;
     font-size: 13px;
 }
 
-#work a {
-    text-decoration: none;
-    color: white;
+.pro-info {
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#work h1 {
+    font-size: 13px;
+    font-style: italic;
 }
 
 #work h2 {
-    margin: 5px 0px 0px 50px;
     font-size: 25px;
     font-weight: 900;
 }
 
-#work h3 {
-    margin: 150px 0px 0px 50px;
-    font-style: italic;
-}
-
 #work p {
-    margin: 10px 0px 0px 50px;
-    
 }
 
 #pro1 {
