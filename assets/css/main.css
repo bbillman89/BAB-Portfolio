@@ -57,6 +57,7 @@ input,textarea {
     /* position: absolute;
     top: 0px; */
     margin-left: 20%;
+    text-align: center;
 }
 
 /* -------------------- Nav -------------------- */
@@ -132,23 +133,17 @@ nav ul a:active {
 #work {
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center;
-    justify-content: center; */
     background-color: rgb(53, 53, 53);
+    text-align: left;
 }
 
 .pro-container {
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     width: 33%;
     height: 33%;
     font-size: 13px;
-}
-
-.pro-info {
-    position: absolute;
-    text-align: center;
-    margin-top: 10%;
+    /* padding: 2px; */
 }
 
 #work h1 {
@@ -167,6 +162,14 @@ nav ul a:active {
 #pro1 {
     background-image: url("../images/bourbonbar.jpg");
     background-size: cover;
+}
+
+#pro2 {
+    background-color: rgb(51, 117, 81);
+}
+
+#pro3,#pro5,#pro7,#pro9 {
+    background-color: rgb(34, 34, 34);
 }
 
 /* -------------------- Resume -------------------- */
