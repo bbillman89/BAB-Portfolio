@@ -6,9 +6,12 @@ font-family: 'Changa', sans-serif;
 /* -------------------- General -------------------- */
 
 * {
+    color: white;
+}
+
+body {
     font-family: 'Signika', sans-serif;
     font-weight: 300;
-    color: white;
 }
 
 a {
@@ -125,7 +128,6 @@ nav ul a:active {
 
 #about {
     background-color: rgb(34, 34, 34);
-    margin-top: -16px;
 }
 
 /* -------------------- Work -------------------- */
@@ -138,12 +140,12 @@ nav ul a:active {
 }
 
 .pro-container {
-    /* align-items: center;
-    justify-content: center; */
-    width: 33%;
-    height: 33%;
+    flex: 1 0 33%;
     font-size: 13px;
-    /* padding: 2px; */
+}
+
+.proj-info {
+
 }
 
 #work h1 {
