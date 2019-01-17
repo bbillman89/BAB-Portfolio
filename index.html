@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Brett Billman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/images/favicon.svg" type="image/gif" sizes="16x16">
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
     <link href="https://fonts.googleapis.com/css?family=Changa:800|Signika:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
@@ -13,8 +13,8 @@
     <script src="assets/javascript/main.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="vert-nav">
+    <header>
+        <nav class="vert-nav">
             <h1>
                 brett <br>
                 billman
@@ -26,22 +26,22 @@
                 <li><a href="#contact" class="scroll-link">contact</a></li>
             </ul>
             <div class="social-media">
-                <a href="https://www.linkedin.com/in/brettbillman/" target="_blank"><img class="icon" src="assets/images/linkedin.svg" alt="linkedin"></a>
-                <a href="https://github.com/bbillman89" target="_blank"><img class="icon" src="assets/images/github.svg" alt="github"></a>
-                <a href="#" target="_blank"><img class="icon" src="assets/images/behance.svg" alt="behance"></a>
+                <a href="https://www.linkedin.com/in/brettbillman/" target="_blank"><img class="icon" src="assets/images/linkedin.svg" alt="linkedin" style="width: 20px"></a>
+                <a href="https://github.com/bbillman89" target="_blank"><img class="icon" src="assets/images/github.svg" alt="github" style="width: 20px"></a>
+                <a href="#" target="_blank"><img class="icon" src="assets/images/behance.svg" alt="behance" style="width: 20px"></a>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!--   about   -->
-    <section class="vert content" id="about">
+    <article class="vert content" id="about">
         <h1>
             about
         </h1>
-    </section>
+    </article>
     <!--   work   -->
-    <section class="content" id="work">
+    <article class="content" id="work">
         <a href="https://bbillman89.github.io/Word-Guess-Game/" target="_blank">
-            <div class="pro-container" id="pro1">
+            <section class="pro-container" id="pro1">
                 <div class="proj-info">
                     <h1>
                         tech
@@ -55,10 +55,10 @@
                         </h3>
                     </a>
                 </div>
-            </div>
+            </section>
         </a>
         <a href="https://drive.google.com/file/d/1fFXgsbLOlxkWKCeWctkIk3xMSZh1SZR5/view" target="_blank">
-            <div class="pro-container" id="pro2">
+            <section class="pro-container" id="pro2">
                 <h1>
                     node.js
                 </h1>
@@ -70,10 +70,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro3">
+            <section class="pro-container" id="pro3">
                 <h1>
                     tech
                 </h1>
@@ -85,10 +85,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro4">
+            <section class="pro-container" id="pro4">
                 <h1>
                     tech
                 </h1>
@@ -100,10 +100,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro5">
+            <section class="pro-container" id="pro5">
                 <h1>
                     tech
                 </h1>
@@ -115,10 +115,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro6">
+            <section class="pro-container" id="pro6">
                 <h1>
                     tech
                 </h1>
@@ -130,10 +130,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro7">
+            <section class="pro-container" id="pro7">
                 <h1>
                     tech
                 </h1>
@@ -145,10 +145,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro8">
+            <section class="pro-container" id="pro8">
                 <h1>
                     tech
                 </h1>
@@ -160,10 +160,10 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
         <a href="" target="_blank">
-            <div class="pro-container" id="pro9">
+            <section class="pro-container" id="pro9">
                 <h1>
                     tech
                 </h1>
@@ -175,45 +175,52 @@
                         view source
                     </h3>
                 </a>
-            </div>
+            </section>
         </a>
-    </section>
+    </article>
     <!--   resume   -->
-    <section class="vert content" id="resume">
+    <article class="vert content" id="resume">
         <h1>
             resume
         </h1>
-        <div>
+        <section>
             <p>
-                <a href="assets/images/brett_billman_resume.pdf">
-                <img class="icon" src="assets/images/file-pdf-regular.svg" alt="pdf">
+                <a href="assets/images/brett_billman_resume.pdf" target="_blank">
+                <img class="icon" src="assets/images/file-pdf-regular.svg" alt="pdf" style="width: 20px">
                 PDF Resume
                 </a>
             </p>
-        </div>
-    </section>
+        </section>
+    </article>
     <!--   contact   -->
-    <section class="vert content" id="contact">
-        <h1>
-            contact
-        </h1>
-        <div id="contact-left">
+    <article class="vert content" id="contact">
+        <section id="contact-left">
+            <h1>
+                contact
+            </h1>
+            <form action="https://formspree.io/billman.designs@gmail.com" method="POST">
+                <label>name</label>
+                <input type="text" name="name" placeholder="">
+                <label>email</label>
+                <input type="email" name="_replyto">
+                <label>message</label>
+                <textarea placeholder="Write me a message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+        <section id="contact-right">
+            <h2>
+                contact info:
+            </h2>
             <p>
-                <img class="icon" src="assets/images/envelope-solid.svg" alt="email">
+                <img class="icon" src="assets/images/envelope-solid.svg" alt="email" style="width: 20px">
                 billman.designs@gmail.com
             </p>
             <p>
-                <img class="icon" src="assets/images/mobile-alt-solid.svg" alt="mobile">
+                <img class="icon" src="assets/images/mobile-alt-solid.svg" alt="mobile" style="width: 20px">
                 216.777.9440
             </p>
-        </div>
-        <div id="contact-right">
-            <form>
-                <input type="text" placeholder="name">
-                <input type="text" placeholder="email">
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
-            </form>
-        </div>
-    </section>
+        </section>
+    </article>
 </body>
 </html>

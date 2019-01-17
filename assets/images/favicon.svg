@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<rect fill="#FF5202" width="16" height="16"/>
+<g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-miterlimit="10" points="2,5.5 3.7,3 5.8,6.2 8,3 10.2,6.2 
+				12.3,3 14,5.5 			"/>
+			<g>
+				<circle fill="#FFFFFF" cx="2" cy="5.5" r="0.9"/>
+			</g>
+			<g>
+				<circle fill="#FFFFFF" cx="14" cy="5.5" r="0.9"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-miterlimit="10" points="2,12.3 3.7,9.8 5.8,13 8,9.8 10.2,13 
+				12.3,9.8 14,12.3 			"/>
+			<g>
+				<circle fill="#FFFFFF" cx="2" cy="12.3" r="0.9"/>
+			</g>
+			<g>
+				<circle fill="#FFFFFF" cx="14" cy="12.3" r="0.9"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

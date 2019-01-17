@@ -7,6 +7,7 @@ font-family: 'Changa', sans-serif;
 
 * {
     color: white;
+    box-sizing: inherit;
 }
 
 body {
@@ -30,10 +31,9 @@ html,body {
 
 h1 {
     font-size: 60px;
-    /* text-align: center; */
 }
 
-section {
+article {
     width: 80%;
     height: 100%;
 }
@@ -57,21 +57,26 @@ input,textarea {
 }
 
 .content {
-    /* position: absolute;
-    top: 0px; */
     margin-left: 20%;
     text-align: center;
 }
 
 /* -------------------- Nav -------------------- */
 
-nav {
+header {
     position: fixed;
-    left: 0px;
-    top: 0px;
     width: 20%;
     height: 100%;
     background-color: rgb(255, 82, 2);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 nav h1 {
@@ -115,14 +120,6 @@ nav ul a:active {
     transition: 1s;
 }
 
-.vert-nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100%;
-    width: 80%;
-    margin: auto;
-}
 
 /* -------------------- About -------------------- */
 
@@ -144,10 +141,6 @@ nav ul a:active {
     font-size: 13px;
 }
 
-.proj-info {
-
-}
-
 #work h1 {
     font-size: 13px;
     font-style: italic;
@@ -156,9 +149,6 @@ nav ul a:active {
 #work h2 {
     font-size: 25px;
     font-weight: 900;
-}
-
-#work p {
 }
 
 #pro1 {
@@ -170,6 +160,7 @@ nav ul a:active {
     background-color: rgb(51, 117, 81);
 }
 
+/* placeholder */
 #pro3,#pro5,#pro7,#pro9 {
     background-color: rgb(34, 34, 34);
 }
@@ -188,16 +179,36 @@ nav ul a:active {
     flex-wrap: nowrap;
     justify-content: center;
     background-color: rgb(53, 53, 53);
+    text-align: left;
 }
 
 #contact-left {
-    width: 40%;
+    width: 70%;
+    padding: 50px;
 }
 
 #contact-right {
-    width: 60%;
+    width: 30%;
+    padding: 50px;
 }
 
 #contact p {
     margin: 10px 0px 0px 0px;
+}
+
+form {
+    display: block;
+    margin: 50px 0px 0px 0px;
+}
+
+input, textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+}
+
+input[type=submit] {
+    background-color: rgb(34, 34, 34);
+    color: white;
 }
